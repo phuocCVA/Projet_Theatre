@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_VptOcM7HEeSCJeq8xa5tqw" name="Theater">
+    <eAnnotations xmi:id="_V0uysM7HEeSCJeq8xa5tqw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_V0uysc7HEeSCJeq8xa5tqw" source="codegen">
+        <details xmi:id="_V0vZwM7HEeSCJeq8xa5tqw" key="codegenDirectory" value="/Theater/src"/>
+        <details xmi:id="_V081IM7HEeSCJeq8xa5tqw" key="observedFolders" value="/Theater/src"/>
+        <details xmi:id="_Hh1p8M7JEeSCJeq8xa5tqw" key="AssociatedSourceCode" value="/Theater/src/Zone.java;759368020/1;/Theater/src/Place.java;2827107541/1;/Theater/src/Billet.java;234597631/1;/Theater/src/Vente.java;556555115/1;/Theater/src/Représentation.java;911684448/1;/Theater/src/Horaire.java;3314856736/1;/Theater/src/Spectacle.java;3767323684/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_HrJ-AM7JEeSCJeq8xa5tqw" source="dangling-refs">
+        <contents xmi:type="uml:DataType" xmi:id="_HrKlEM7JEeSCJeq8xa5tqw" name="DateTime"/>
+        <contents xmi:type="uml:DataType" xmi:id="_HrMaQM7JEeSCJeq8xa5tqw" name="DateTime"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_h8w7gM7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_h8w7gc7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_h8xikM7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_h8xikc7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_h8xiks7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_h8xik87HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_h8xilM7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_h8xilc7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_h_QO0M7HEeSCJeq8xa5tqw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bNAe8M7HEeSCJeq8xa5tqw" name="Zone">
+      <ownedAttribute xmi:id="_iu6xMM7HEeSCJeq8xa5tqw" name="nomZone">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_mgVNUM7HEeSCJeq8xa5tqw" name="tarif">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_B1N60M7IEeSCJeq8xa5tqw" name="place" type="_oeoGAM7HEeSCJeq8xa5tqw" aggregation="composite" association="_B1MFoM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B1N60c7IEeSCJeq8xa5tqw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B1N60s7IEeSCJeq8xa5tqw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oeoGAM7HEeSCJeq8xa5tqw" name="Place">
+      <ownedAttribute xmi:id="_poB-EM7HEeSCJeq8xa5tqw" name="numRang">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_qyqlMM7HEeSCJeq8xa5tqw" name="ordrePlace">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_B1MFoc7IEeSCJeq8xa5tqw" name="zone" type="_bNAe8M7HEeSCJeq8xa5tqw" association="_B1MFoM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B1NTwM7IEeSCJeq8xa5tqw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B1NTwc7IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jyq3ws7IEeSCJeq8xa5tqw" name="billet" type="_sVWf8M7HEeSCJeq8xa5tqw" association="_jyqQsM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jyq3w87IEeSCJeq8xa5tqw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jyq3xM7IEeSCJeq8xa5tqw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sVWf8M7HEeSCJeq8xa5tqw" name="Billet">
+      <ownedAttribute xmi:id="_CMH-8c7IEeSCJeq8xa5tqw" name="vente" type="_tnjHoM7HEeSCJeq8xa5tqw" association="_CMH-8M7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CMH-8s7IEeSCJeq8xa5tqw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CMH-887IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jyqQsc7IEeSCJeq8xa5tqw" name="place" type="_oeoGAM7HEeSCJeq8xa5tqw" association="_jyqQsM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jyq3wM7IEeSCJeq8xa5tqw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jyq3wc7IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kAQAxM7IEeSCJeq8xa5tqw" name="représentation" type="_7gBTUM7HEeSCJeq8xa5tqw" association="_kAQAwM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kAQAxc7IEeSCJeq8xa5tqw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kAQAxs7IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tnjHoM7HEeSCJeq8xa5tqw" name="Vente">
+      <ownedAttribute xmi:id="_vI_FMM7HEeSCJeq8xa5tqw" name="numDossier">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_v7ECYM7HEeSCJeq8xa5tqw" name="numTicket">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zJlz4M7HEeSCJeq8xa5tqw" name="date" type="_HrKlEM7JEeSCJeq8xa5tqw"/>
+      <ownedAttribute xmi:id="_5qVkEM7HEeSCJeq8xa5tqw" name="prixTotal">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CMH-9M7IEeSCJeq8xa5tqw" name="billet" type="_sVWf8M7HEeSCJeq8xa5tqw" aggregation="composite" association="_CMH-8M7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CMH-9c7IEeSCJeq8xa5tqw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CMH-9s7IEeSCJeq8xa5tqw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_zJnCAM7HEeSCJeq8xa5tqw" name="Date"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7gBTUM7HEeSCJeq8xa5tqw" name="Représentation">
+      <ownedComment xmi:id="_AYBHkM7JEeSCJeq8xa5tqw" annotatedElement="_7gBTUM7HEeSCJeq8xa5tqw">
+        <body>Zone(nomZone,tarif)&#xD;
+Place(numRang,ordrePlace,#nomZone)&#xD;
+Spectacle(numS,nom)&#xD;
+Representation(#numS,date)&#xD;
+Vente(numDossier,numTicket,date,prixTotal)&#xD;
+Billet(#numRang,#ordrePlace,#numS,#date,#numDossier)</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_kAQAwc7IEeSCJeq8xa5tqw" name="billet" type="_sVWf8M7HEeSCJeq8xa5tqw" association="_kAQAwM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kAQAws7IEeSCJeq8xa5tqw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kAQAw87IEeSCJeq8xa5tqw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tAB_Mc7IEeSCJeq8xa5tqw" name="spectacle" type="_EXLhQM7IEeSCJeq8xa5tqw" association="_tAB_MM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tAB_Ms7IEeSCJeq8xa5tqw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tAB_M87IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tNbiAc7IEeSCJeq8xa5tqw" name="horaire" type="_8nTrgM7HEeSCJeq8xa5tqw" association="_tNbiAM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tNbiAs7IEeSCJeq8xa5tqw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tNbiA87IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8nTrgM7HEeSCJeq8xa5tqw" name="Horaire">
+      <ownedAttribute xmi:id="_-N8SIM7HEeSCJeq8xa5tqw" name="date" type="_HrMaQM7JEeSCJeq8xa5tqw"/>
+      <ownedAttribute xmi:id="_tNcJEM7IEeSCJeq8xa5tqw" name="représentation" type="_7gBTUM7HEeSCJeq8xa5tqw" association="_tNbiAM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tNcJEc7IEeSCJeq8xa5tqw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tNcJEs7IEeSCJeq8xa5tqw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_B1MFoM7IEeSCJeq8xa5tqw" name="" memberEnd="_B1MFoc7IEeSCJeq8xa5tqw _B1N60M7IEeSCJeq8xa5tqw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_CMH-8M7IEeSCJeq8xa5tqw" name="" memberEnd="_CMH-8c7IEeSCJeq8xa5tqw _CMH-9M7IEeSCJeq8xa5tqw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EXLhQM7IEeSCJeq8xa5tqw" name="Spectacle">
+      <ownedAttribute xmi:id="_F5xVYM7IEeSCJeq8xa5tqw" name="numS">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Gj53gM7IEeSCJeq8xa5tqw" name="nom">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tAB_NM7IEeSCJeq8xa5tqw" name="représentation" type="_7gBTUM7HEeSCJeq8xa5tqw" association="_tAB_MM7IEeSCJeq8xa5tqw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tACmQM7IEeSCJeq8xa5tqw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tACmQc7IEeSCJeq8xa5tqw" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jyqQsM7IEeSCJeq8xa5tqw" name="" memberEnd="_jyqQsc7IEeSCJeq8xa5tqw _jyq3ws7IEeSCJeq8xa5tqw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kAQAwM7IEeSCJeq8xa5tqw" name="" memberEnd="_kAQAwc7IEeSCJeq8xa5tqw _kAQAxM7IEeSCJeq8xa5tqw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tAB_MM7IEeSCJeq8xa5tqw" name="" memberEnd="_tAB_Mc7IEeSCJeq8xa5tqw _tAB_NM7IEeSCJeq8xa5tqw"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_tNbiAM7IEeSCJeq8xa5tqw" name="" memberEnd="_tNbiAc7IEeSCJeq8xa5tqw _tNcJEM7IEeSCJeq8xa5tqw"/>
+    <profileApplication xmi:id="_V0x2AM7HEeSCJeq8xa5tqw">
+      <eAnnotations xmi:id="_V00SQM7HEeSCJeq8xa5tqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_V04jsM7HEeSCJeq8xa5tqw" base_Package="_VptOcM7HEeSCJeq8xa5tqw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:UnresolvedElement xmi:id="_zJnpEM7HEeSCJeq8xa5tqw" base_Element="_zJnCAM7HEeSCJeq8xa5tqw"/>
+</xmi:XMI>

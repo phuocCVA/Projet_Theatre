@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Vqht0M7HEeSCJeq8xa5tqw">
+  <modelElement href="Theater.uml#_VptOcM7HEeSCJeq8xa5tqw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_B1ckUM7IEeSCJeq8xa5tqw" sourceAnchor="99.0,0.0" targetAnchor="104.0,87.0" target="_oeotEM7HEeSCJeq8xa5tqw" source="_bNGlkM7HEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_B1MFoM7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_B1ckUc7IEeSCJeq8xa5tqw"/>
+    <nameVisual xmi:id="_B1ckUs7IEeSCJeq8xa5tqw" text="">
+      <visualProperties xmi:id="_B4tTsM7IEeSCJeq8xa5tqw" position="-6.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_B1ckU87IEeSCJeq8xa5tqw" aggregationKind="NONE" name="zone" navigable="true">
+      <modelElement href="Theater.uml#_B1MFoc7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_B4sFkM7IEeSCJeq8xa5tqw" position="-46.0,-50.0"/>
+      <visibility xmi:id="_B1ckVM7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_B1ckVc7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_B1ckVs7IEeSCJeq8xa5tqw" name="place" navigable="true">
+      <modelElement href="Theater.uml#_B1N60M7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_B4tTsc7IEeSCJeq8xa5tqw" position="4.0,5.0"/>
+      <visibility xmi:id="_B1ckV87IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_B1ckWM7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_CMKbMM7IEeSCJeq8xa5tqw" sourceAnchor="172.0,0.0" targetAnchor="15.0,86.0" target="_sVXHAM7HEeSCJeq8xa5tqw" source="_tnjusM7HEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_CMH-8M7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_CMKbMc7IEeSCJeq8xa5tqw"/>
+    <nameVisual xmi:id="_CMKbMs7IEeSCJeq8xa5tqw" text="">
+      <visualProperties xmi:id="_COIxIM7IEeSCJeq8xa5tqw" position="-18.0,-37.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_CMKbM87IEeSCJeq8xa5tqw" aggregationKind="NONE" name="vente" navigable="true">
+      <modelElement href="Theater.uml#_CMH-8c7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_COIKEM7IEeSCJeq8xa5tqw" position="-46.0,-46.0"/>
+      <visibility xmi:id="_CMKbNM7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_CMKbNc7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_CMKbNs7IEeSCJeq8xa5tqw" name="billet" navigable="true">
+      <modelElement href="Theater.uml#_CMH-9M7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_COIxIc7IEeSCJeq8xa5tqw" position="2.0,1.0"/>
+      <visibility xmi:id="_CMKbN87IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_CMKbOM7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jyss8M7IEeSCJeq8xa5tqw" sourceAnchor="0.0,44.0" targetAnchor="204.0,43.0" target="_sVXHAM7HEeSCJeq8xa5tqw" source="_oeotEM7HEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_jyqQsM7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_jyss8c7IEeSCJeq8xa5tqw"/>
+    <nameVisual xmi:id="_jyss8s7IEeSCJeq8xa5tqw" text="">
+      <visualProperties xmi:id="_j0p0wM7IEeSCJeq8xa5tqw" position="-7.0,-9.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jyss887IEeSCJeq8xa5tqw" aggregationKind="NONE" name="place" navigable="true">
+      <modelElement href="Theater.uml#_jyqQsc7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_j0pNsM7IEeSCJeq8xa5tqw" position="-48.0,3.0"/>
+      <visibility xmi:id="_jyss9M7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_jyss9c7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jyss9s7IEeSCJeq8xa5tqw" aggregationKind="NONE" name="billet" navigable="true">
+      <modelElement href="Theater.uml#_jyq3ws7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_j0p0wc7IEeSCJeq8xa5tqw" position="5.0,-49.00000000000006"/>
+      <visibility xmi:id="_jyss987IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_jyss-M7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kARO4M7IEeSCJeq8xa5tqw" sourceAnchor="102.0,86.0" targetAnchor="75.0,0.0" target="_7gB6YM7HEeSCJeq8xa5tqw" source="_sVXHAM7HEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_kAQAwM7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_kARO4c7IEeSCJeq8xa5tqw"/>
+    <nameVisual xmi:id="_kARO4s7IEeSCJeq8xa5tqw" text="">
+      <visualProperties xmi:id="_kB8C0c7IEeSCJeq8xa5tqw" position="-6.0,43.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kARO487IEeSCJeq8xa5tqw" aggregationKind="NONE" name="billet" navigable="true">
+      <modelElement href="Theater.uml#_kAQAwc7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_kB8C0M7IEeSCJeq8xa5tqw" position="5.0,5.0"/>
+      <visibility xmi:id="_kARO5M7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_kARO5c7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kARO5s7IEeSCJeq8xa5tqw" aggregationKind="NONE" name="représentation" navigable="true">
+      <modelElement href="Theater.uml#_kAQAxM7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_kB8C0s7IEeSCJeq8xa5tqw" position="-98.0,-50.0"/>
+      <visibility xmi:id="_kARO587IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_kARO6M7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tAD0YM7IEeSCJeq8xa5tqw" sourceAnchor="152.0,60.0" targetAnchor="0.0,55.0" target="_7gB6YM7HEeSCJeq8xa5tqw" source="_EXLhQc7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_tAB_MM7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_tAD0Yc7IEeSCJeq8xa5tqw"/>
+    <nameVisual xmi:id="_tAD0Ys7IEeSCJeq8xa5tqw" text="">
+      <visualProperties xmi:id="_tCCKUc7IEeSCJeq8xa5tqw" position="-21.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tAD0Y87IEeSCJeq8xa5tqw" aggregationKind="NONE" name="spectacle" navigable="true">
+      <modelElement href="Theater.uml#_tAB_Mc7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_tCCKUM7IEeSCJeq8xa5tqw" position="5.0,-49.0"/>
+      <visibility xmi:id="_tAD0ZM7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tAD0Zc7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tAD0Zs7IEeSCJeq8xa5tqw" aggregationKind="NONE" name="représentation" navigable="true">
+      <modelElement href="Theater.uml#_tAB_NM7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_tCCKUs7IEeSCJeq8xa5tqw" position="-96.0,3.0"/>
+      <visibility xmi:id="_tAD0Z87IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tAD0aM7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tNdXMM7IEeSCJeq8xa5tqw" sourceAnchor="0.0,44.0" targetAnchor="149.0,55.0" target="_7gB6YM7HEeSCJeq8xa5tqw" source="_8nUSkM7HEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_tNbiAM7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_tNdXMc7IEeSCJeq8xa5tqw"/>
+    <nameVisual xmi:id="_tNdXMs7IEeSCJeq8xa5tqw" text="">
+      <visualProperties xmi:id="_tPLOcc7IEeSCJeq8xa5tqw" position="16.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tNdXM87IEeSCJeq8xa5tqw" aggregationKind="NONE" name="horaire" navigable="true">
+      <modelElement href="Theater.uml#_tNbiAc7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_tPLOcM7IEeSCJeq8xa5tqw" position="-57.0,3.0"/>
+      <visibility xmi:id="_tNdXNM7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tNdXNc7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tNdXNs7IEeSCJeq8xa5tqw" aggregationKind="NONE" name="représentation" navigable="true">
+      <modelElement href="Theater.uml#_tNcJEM7IEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_tPLOcs7IEeSCJeq8xa5tqw" position="5.0,-49.000000000000114"/>
+      <visibility xmi:id="_tNdXN87IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tNdXOM7IEeSCJeq8xa5tqw" label="0..1" max="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AYCVsM7JEeSCJeq8xa5tqw" sourceAnchor="94.0,0.0" targetAnchor="75.0,110.0" targetItem="_7gB6YM7HEeSCJeq8xa5tqw" sourceItem="_AX7A8M7JEeSCJeq8xa5tqw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bNGlkM7HEeSCJeq8xa5tqw" name="Zone" associationsOut="_B1ckUM7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_bNAe8M7HEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_bNHMoM7HEeSCJeq8xa5tqw" position="793.0,631.0" size="197.0,93.0"/>
+    <visibility xmi:id="_bNHMoc7HEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_iu9NcM7HEeSCJeq8xa5tqw" name="nomZone">
+      <modelElement href="Theater.uml#_iu6xMM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_iu9Ncc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_iu9Ncs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_iu90gM7HEeSCJeq8xa5tqw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mgWbcM7HEeSCJeq8xa5tqw" name="tarif">
+      <modelElement href="Theater.uml#_mgVNUM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_mgWbcc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_mgWbcs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_mgWbc87HEeSCJeq8xa5tqw" name="Real">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_B1dycM7IEeSCJeq8xa5tqw" name="place">
+      <modelElement href="Theater.uml#_B1N60M7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_B1dycc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_B1dycs7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+      <type xmi:id="_B1dyc87IEeSCJeq8xa5tqw" name="Place">
+        <modelElement href="Theater.uml#_oeoGAM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oeotEM7HEeSCJeq8xa5tqw" name="Place" associationsIn="_B1ckUM7IEeSCJeq8xa5tqw" associationsOut="_jyss8M7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_oeoGAM7HEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_oeotEc7HEeSCJeq8xa5tqw" position="788.0,348.0" size="207.0,87.0"/>
+    <visibility xmi:id="_oeotEs7HEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_poClIM7HEeSCJeq8xa5tqw" name="numRang">
+      <modelElement href="Theater.uml#_poB-EM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_poClIc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_poClIs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_poClI87HEeSCJeq8xa5tqw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qyrzUM7HEeSCJeq8xa5tqw" name="ordrePlace">
+      <modelElement href="Theater.uml#_qyqlMM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_qyrzUc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_qyrzUs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_qyrzU87HEeSCJeq8xa5tqw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_B1dLYM7IEeSCJeq8xa5tqw" name="zone">
+      <modelElement href="Theater.uml#_B1MFoc7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_B1dLYc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_B1dLYs7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_B1dLY87IEeSCJeq8xa5tqw" name="Zone">
+        <modelElement href="Theater.uml#_bNAe8M7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jyt7EM7IEeSCJeq8xa5tqw" name="billet">
+      <modelElement href="Theater.uml#_jyq3ws7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_jyt7Ec7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_jyt7Es7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+      <type xmi:id="_jyt7E87IEeSCJeq8xa5tqw" name="Billet">
+        <modelElement href="Theater.uml#_sVWf8M7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7gB6YM7HEeSCJeq8xa5tqw" comments="_AX7A8M7JEeSCJeq8xa5tqw" targetConnectionVisual="_AYCVsM7JEeSCJeq8xa5tqw" name="Représentation" associationsIn="_kARO4M7IEeSCJeq8xa5tqw _tAD0YM7IEeSCJeq8xa5tqw _tNdXMM7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_7gBTUM7HEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_7gB6Yc7HEeSCJeq8xa5tqw" position="427.0,740.0" size="149.0,110.0"/>
+    <visibility xmi:id="_7gB6Ys7HEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_kAR18M7IEeSCJeq8xa5tqw" name="billet">
+      <modelElement href="Theater.uml#_kAQAwc7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_kAR18c7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_kAR18s7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+      <type xmi:id="_kAR1887IEeSCJeq8xa5tqw" name="Billet">
+        <modelElement href="Theater.uml#_sVWf8M7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tAD0ac7IEeSCJeq8xa5tqw" name="spectacle">
+      <modelElement href="Theater.uml#_tAB_Mc7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_tAD0as7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tAD0a87IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_tAD0bM7IEeSCJeq8xa5tqw" name="Spectacle">
+        <modelElement href="Theater.uml#_EXLhQM7IEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tNdXOc7IEeSCJeq8xa5tqw" name="horaire">
+      <modelElement href="Theater.uml#_tNbiAc7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_tNd-QM7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tNd-Qc7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_tNd-Qs7IEeSCJeq8xa5tqw" name="Horaire">
+        <modelElement href="Theater.uml#_8nTrgM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sVXHAM7HEeSCJeq8xa5tqw" name="Billet" associationsIn="_CMKbMM7IEeSCJeq8xa5tqw _jyss8M7IEeSCJeq8xa5tqw" associationsOut="_kARO4M7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_sVWf8M7HEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_sVXHAc7HEeSCJeq8xa5tqw" position="400.0,349.0" size="204.0,86.0"/>
+    <visibility xmi:id="_sVXHAs7HEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_CMLCQM7IEeSCJeq8xa5tqw" name="vente">
+      <modelElement href="Theater.uml#_CMH-8c7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_CMLCQc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_CMLCQs7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_CMLCQ87IEeSCJeq8xa5tqw" name="Vente">
+        <modelElement href="Theater.uml#_tnjHoM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jytUAM7IEeSCJeq8xa5tqw" name="place">
+      <modelElement href="Theater.uml#_jyqQsc7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_jytUAc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_jytUAs7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_jytUA87IEeSCJeq8xa5tqw" name="Place">
+        <modelElement href="Theater.uml#_oeoGAM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kASdAM7IEeSCJeq8xa5tqw" name="représentation">
+      <modelElement href="Theater.uml#_kAQAxM7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_kASdAc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_kASdAs7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_kASdA87IEeSCJeq8xa5tqw" name="Représentation">
+        <modelElement href="Theater.uml#_7gBTUM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AX7A8M7JEeSCJeq8xa5tqw" sourceConnectionVisual="_AYCVsM7JEeSCJeq8xa5tqw" text="Zone(nomZone,tarif)&#xD;&#xA;Place(numRang,ordrePlace,#nomZone)&#xD;&#xA;Spectacle(numS,nom)&#xD;&#xA;Representation(#numS,date)&#xD;&#xA;Vente(numDossier,numTicket,date,prixTotal)&#xD;&#xA;Billet(#numRang,#ordrePlace,#numS,#date,#numDossier)" item="_7gB6YM7HEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_AYBHkM7JEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_AX7A8c7JEeSCJeq8xa5tqw" position="408.0,877.0" size="188.0,121.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EXLhQc7IEeSCJeq8xa5tqw" name="Spectacle" associationsOut="_tAD0YM7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_EXLhQM7IEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_EXLhQs7IEeSCJeq8xa5tqw" position="10.0,735.0" size="152.0,119.0"/>
+    <visibility xmi:id="_EXLhQ87IEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_F5x8cM7IEeSCJeq8xa5tqw" name="numS">
+      <modelElement href="Theater.uml#_F5xVYM7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_F5x8cc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_F5x8cs7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_F5x8c87IEeSCJeq8xa5tqw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Gj6ekM7IEeSCJeq8xa5tqw" name="nom">
+      <modelElement href="Theater.uml#_Gj53gM7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_Gj6ekc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_Gj6eks7IEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_Gj6ek87IEeSCJeq8xa5tqw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tAEbcM7IEeSCJeq8xa5tqw" name="représentation">
+      <modelElement href="Theater.uml#_tAB_NM7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_tAEbcc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tAEbcs7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+      <type xmi:id="_tAEbc87IEeSCJeq8xa5tqw" name="Représentation">
+        <modelElement href="Theater.uml#_7gBTUM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_8nUSkM7HEeSCJeq8xa5tqw" name="Horaire" associationsOut="_tNdXMM7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_8nTrgM7HEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_8nUSkc7HEeSCJeq8xa5tqw" position="823.0,751.0" size="138.0,87.0"/>
+    <visibility xmi:id="_8nUSks7HEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_-N85MM7HEeSCJeq8xa5tqw" name="date">
+      <modelElement href="Theater.uml#_-N8SIM7HEeSCJeq8xa5tqw"/>
+      <visualProperties xmi:id="_ALuNcM7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_-N85Mc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_-N85Ms7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_--dJEM7HEeSCJeq8xa5tqw" name="DateTime">
+        <modelElement href="Theater.uml#_HrMaQM7JEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tNd-Q87IEeSCJeq8xa5tqw" name="représentation">
+      <modelElement href="Theater.uml#_tNcJEM7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_tNd-RM7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_tNd-Rc7IEeSCJeq8xa5tqw" label="0..1" max="1"/>
+      <type xmi:id="_tNd-Rs7IEeSCJeq8xa5tqw" name="Représentation">
+        <modelElement href="Theater.uml#_7gBTUM7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tnjusM7HEeSCJeq8xa5tqw" name="Vente" associationsOut="_CMKbMM7IEeSCJeq8xa5tqw">
+    <modelElement href="Theater.uml#_tnjHoM7HEeSCJeq8xa5tqw"/>
+    <visualProperties xmi:id="_tnjusc7HEeSCJeq8xa5tqw" position="243.0,511.0" size="182.0,126.0"/>
+    <visibility xmi:id="_tnjuss7HEeSCJeq8xa5tqw" label="+"/>
+    <attributes xmi:id="_vI_sQM7HEeSCJeq8xa5tqw" name="numDossier">
+      <modelElement href="Theater.uml#_vI_FMM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_vI_sQc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_vI_sQs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_vI_sQ87HEeSCJeq8xa5tqw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_v7EpcM7HEeSCJeq8xa5tqw" name="numTicket">
+      <modelElement href="Theater.uml#_v7ECYM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_v7Epcc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_v7Epcs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_v7Epc87HEeSCJeq8xa5tqw" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zJoQIM7HEeSCJeq8xa5tqw" name="date">
+      <modelElement href="Theater.uml#_zJlz4M7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_zJoQIc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_zJoQIs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_6aKegM7HEeSCJeq8xa5tqw" name="DateTime">
+        <modelElement href="Theater.uml#_HrKlEM7JEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_5qWyMM7HEeSCJeq8xa5tqw" name="prixTotal">
+      <modelElement href="Theater.uml#_5qVkEM7HEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_5qWyMc7HEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_5qWyMs7HEeSCJeq8xa5tqw" label="1" max="1" min="1"/>
+      <type xmi:id="_5qWyM87HEeSCJeq8xa5tqw" name="Real">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_CMLpUM7IEeSCJeq8xa5tqw" name="billet">
+      <modelElement href="Theater.uml#_CMH-9M7IEeSCJeq8xa5tqw"/>
+      <visibility xmi:id="_CMLpUc7IEeSCJeq8xa5tqw" label="+"/>
+      <cardinality xmi:id="_CMLpUs7IEeSCJeq8xa5tqw" label="*" max="-1"/>
+      <type xmi:id="_CMLpU87IEeSCJeq8xa5tqw" name="Billet">
+        <modelElement href="Theater.uml#_sVWf8M7HEeSCJeq8xa5tqw"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
